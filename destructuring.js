@@ -45,4 +45,4 @@ var {name2, otherInfo: {age2}} = {name: "Eden", otherInfo: {age: 23}};
 function myFunction3({name = 'Eden', age = 23, profession = "Designer"} = {})   {
     console.log(name, age, profession); // Outputs "John 23 Designer"
 }
-myFunction3({name: "John", age: 23});
+myFunction3({name: "John", age: 23}); 
